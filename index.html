@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+	
+<h1>The Great <br><span id="colorDisplay">RGB</span><br> Color Game</h1>
+
+
+<div id="stripe">
+	<button id="reset">New Colors</button>
+	<span id="msg"></span>
+	<button class="mode">Easy</button>
+	<button class="mode selected">Hard</button>
+</div>
+
+	<!-- Container for color squares -->
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		
+		<div id="score">Score: <span id="scoreDisplay"> 0 </div>
+		
+		<div>
+			<p id="info">a game developed to assess human color perception, based off of the Young-Helmholtz theory of trichromatic color vision</p>
+		</div>
+	</div>
+
+<script type="text/javascript" src="colorGame.js"></script>
+</body>
+</html>
